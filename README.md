@@ -1,9 +1,21 @@
-# Cloud Security
+# arit-cyber-labs
 
-AWS-focused security engineering projects: automated incident response, continuous compliance monitoring, and a secure architecture design for a fintech platform.
+Cybersecurity lab write-ups and project reports from my coursework at AltSchool Africa (offensive security track) and related training.
 
-| Report | Summary |
-|--------|---------|
-| [AWS Automated Incident Response](./aws-automated-incident-response.md) | CloudTrail + EventBridge + Lambda "kill-switch" that detects and neutralizes unauthorized Secrets Manager access in real time |
-| [AWS Continuous Compliance](./aws-continuous-compliance.md) | AWS Config + SNS pipeline that detects and alerts on S3 bucket misconfiguration drift |
-| [PayLink Africa Secure Architecture](./paylink-africa-secure-architecture.md) | Three-tier secure architecture design for a fintech payments platform, mapped to CIA Triad, Defense in Depth, and NIST CSF |
+**Author:** Arit Uyouko
+**Focus:** Offensive security — recon, web app exploitation, cloud security, threat analysis
+
+## Contents
+
+| Folder | What's in it |
+|--------|--------------|
+| [`cloud-security/`](./cloud-security) | AWS incident response, continuous compliance, and secure architecture design (PayLink Africa) |
+| [`reconnaissance/`](./reconnaissance) | OSINT and active scanning methodology (values redacted) |
+| [`capstone/`](./capstone) | Capstone assessment — IDOR exploitation, WPA2 handshake cracking, SQL injection (DVWA) |
+| [`cyblack-internship/`](./cyblack-internship) | CyBlack internship practical — malware hash analysis + passive security evaluation |
+
+## Notes
+
+- Lab environments: PortSwigger Web Security Academy, DVWA, AltSchool Africa training VMs — all testing was authorized and conducted in isolated/training environments.
+- Any credentials, hashes, or keys shown in these reports are lab-issued or deliberately exposed training artifacts, not production secrets.
+- Reconnaissance data involving real infrastructure has been redacted before publishing.
